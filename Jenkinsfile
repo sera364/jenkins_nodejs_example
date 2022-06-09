@@ -1,12 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
-            steps {
-                // Get some code from a GitHub repository
-                //git 'https://github.com/sera364/jenkins_nodejs_example.git'
-            }
-        }
+      
         stage('docker build'){
             steps{
                 //building docker file
